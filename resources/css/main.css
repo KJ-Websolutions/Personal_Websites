@@ -1,0 +1,40 @@
+/* COLOURS 
+    BASE ORANGE:    #e67e22
+    DARKER BASE:    #cf6d17
+*/
+
+/* --------------------------- */
+/* BASIC SETUP */
+/* --------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* clears the padding after "float" has been used. Is set on the parent of the floated elemnt */
+.clearfix {zoom: 1;}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+

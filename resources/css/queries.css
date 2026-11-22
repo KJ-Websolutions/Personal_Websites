@@ -1,0 +1,243 @@
+
+/* From big tablet(landscape mode) 1024px to 1200px */ 
+@media only screen and (max-width: 1200px) {
+    .hero-textbox {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+
+    footer p { margin-bottom: 0px; }
+
+}
+
+
+/* fix for the pricing plan section */
+@media only screen and (max-width: 1053px) {
+    .plan-box li { font-size: 80%;}
+}
+
+
+
+/* Small to big tablet (768-1023px) */
+@media only screen and (max-width: 1023px) {
+
+    /* ----- general ----- */
+    body { font-size: 18px; }
+    
+    section { padding: 60px 0;}
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* ----- section-steps ----- */
+    .works-step {
+        margin-bottom: 25px;
+    }
+
+    /* large phone icon to the left */
+    .steps-box:nth-child(1) {
+        padding-right: 3%;
+        margin-top: 30px;
+        width: 47%;    
+    }
+    
+    /* the three steps on the right */
+    .steps-box:nth-child(2) {
+        padding-left: 3%;
+        margin-top: 45px;    
+    }
+
+    .works-step:last-of-type { margin-bottom: 70px; }
+
+    .app-screen { width: 55%; }
+
+
+
+    /* ----- section-cities -----*/
+
+    .section-cities h3 { font-size: 105%; }
+
+    .icon-small { width: 17px; }
+
+    .city-feature {font-size: 88%;}
+
+    
+
+    /* ----- section-signup ----- */
+
+    .plan-box {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0px;
+    }
+
+    .plan-price { font-size: 250%; }
+
+    .plan-price-meal { 
+        font-weight: 80%;
+    font-size: 90%; }
+    
+    .plan-box li { font-size: 75%;}
+
+
+    /* ----- section-form ----- */
+    .contact-form {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 789px) {
+    /* ----- footer -----*/
+
+    .footer-nav {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .social-links {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+
+/* Small Phones and tablets, smaller than Ipad (481px - 768px) */
+@media only screen and (max-width: 767px) {
+    
+    /* general */
+    html,
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    h1 {font-size: 220%;}
+
+    .row,
+    .hero-textbox { padding: 0 4%; }
+        
+    .col { 
+        width: 100%;
+        margin: 1% 0; }
+
+
+    /* ----- section-features ----- */
+
+    .section-features { text-align: center; }
+    .section-features .icon-big { margin: 20px auto 5px;}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .icon-inner { margin: 0 auto;}
+
+
+
+    /* ----- section-steps ----- */
+
+    .steps-box:nth-child(1)  {
+        padding-right: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* the large phone picture with the omnifood logo */
+    .steps-box:nth-child(1) img { transform: scale(0.8);}
+
+    /* the three "bullet styled" steps to the right */
+    .steps-box:nth-child(2) {
+        padding-left: 3%;
+        margin-top: 0px;    
+    }
+
+    /* the ring around the number */
+    .works-step div {
+        height: 45px;
+        width: 45px;
+        padding: 5px;
+        margin: -4px 10px 0 0;
+    }
+
+    .app-btn-container { 
+        display: block;
+        text-align: center;
+        margin-top: 50px;    
+    }
+
+
+    
+    /* ----- section-cities -----*/
+    
+    .section-cities img { max-width: 400px; }
+    
+    .section-cities h3 { font-size: 130%;}
+    
+    .city-feature { font-size: 100%;}
+
+
+
+    /* ----- section-testimonials -----*/
+
+    cite img {
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    
+    
+    
+    /* ----- section-signup -----*/
+
+    .plan-box {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .plan-price {
+        font-size: 300%;
+        font-weight: 300;
+    }
+
+    .section-sigup span { font-size: 50%; }
+
+    .plan-box ul li { font-size: 100%; }
+
+
+    
+    /* ----- contact-form -----*/
+
+    .contact-form input { margin-bottom: 20px;}
+    
+    .contact-form select { margin-bottom: 20px;}
+    
+    .contact-form input[type=submit] {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+
+
+    
+}
+
+
+
+
+/* Small phones. 0-480px in width. */
+@media only screen and (max-width: 480px) {
+    section {padding: 25px 0;}
+
+    .contact-form { width: 100%;}
+
+}

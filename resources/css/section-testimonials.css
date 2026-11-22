@@ -1,0 +1,36 @@
+
+
+.section-testimonials {
+    color: #fff;
+    background-size: cover; /* the width of the background picture will determine the heigt */
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/food/back-customers.jpg);
+
+    /* keeps the bg img in place, so it looks like everything else is moving over it.! */
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 30px;
+}
+
+blockquote::before {
+    content: '\201c';
+    font-size: 200%;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,5 @@
+####optimization needed
+    *hamburger menu for smaller screens
+    *Responsiveness for < 400px screens
+    *Image compression
+    *CSS minification

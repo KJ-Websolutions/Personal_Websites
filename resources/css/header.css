@@ -1,0 +1,56 @@
+/* --------------------------- */
+/* HEADER */
+/* --------------------------- */
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./../images/food/hero.jpg);
+    background-attachment: fixed;
+    
+}
+
+.hero-textbox {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+/* ----- Nav bar with list elements ----- */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;    
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    color: #fff;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%; /* derived from taking the base font-size 20px (see "*") and deviding it by 18px (wanted size) to get 0.9 == 90% */
+    box-sizing: content-box;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
